@@ -1,9 +1,4 @@
 
-
-#Vahid
-
-
-
 First you should run these commands in terminal and install these packages:
 ```markdown
 sudo apt-get update
@@ -25,7 +20,7 @@ locate redis-5.3.2.tgz
 ```
 
 
-If "locate" can't found your package link you must update database of "locate" whith this command(By default it is updated once in a day):
+If "locate" can't found your package link you must update database of "locate" with this command(By default it is updated once in a day):
 ```markdown
 sudo updatedb
 ```
@@ -39,6 +34,7 @@ Now you should extract file
 ```markdown
 tar xzf redis-5.3.2.tgz
 ```
+Then run:
 ```markdown
 cd redis-5.3.2
 phpize
@@ -46,6 +42,7 @@ phpize
 make
 sudo make install
 ```
+###TIP:if you have access denied when using "make install" you should use "sudo make install"
 
 Finally add below line to /opt/lampp/etc/php.ini
 ```markdown
@@ -60,3 +57,8 @@ And search redis with ctrl+f in this page:
 ```markdown
 localhost/phpinfo.php
 ```
+
+congratulations you could add redis extension...
+if you have problem, you can email me
+amisfaking@gmail.com
+bye bye
