@@ -59,6 +59,9 @@ localhost/phpinfo.php
 ```
 
 congratulations you could add redis extension...
-if you have problem, you can email me
+
+if you have problem, you can email me:
+```markdown
 amisfaking@gmail.com
+```
 bye bye
