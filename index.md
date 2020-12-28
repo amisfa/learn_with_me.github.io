@@ -42,8 +42,10 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ///////////////////////////////////////////////////////////////
 //first you should run these commands in terminal:
+```markdown
 sudo apt-get update
 sudo apt-get install php-redis build-essential libtool autoconf unzip wget mlocate
+```
 
 
 //and
