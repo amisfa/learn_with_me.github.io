@@ -36,32 +36,32 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-
+#Vahid
 
 
 
 ///////////////////////////////////////////////////////////////
-//first you should run these commands in terminal:
+//first you should run these commands in terminal and install these packages:
 ```markdown
 sudo apt-get update
 sudo apt-get install php-redis build-essential libtool autoconf unzip wget mlocate
 ```
 
 
-//and
+
 you can use each redis version insted redis-5.3.2.tgz, check here:[pecl.php.net](https://pecl.php.net/package/redis)
-then you must:
+then you must download redis-5.3.2.tgz with this command:
 ```markdown
 wget https://pecl.php.net/get/redis-5.3.2.tgz
 ```
 
-get link where dl this package with:
+get link where this package is with:
 ```markdown
 locate redis-5.3.2.tgz
 ```
 
 
-if locate cant found your package link you must update database of locate whith this command(By default it is updated once in a day):
+if locate can't found your package link you must update database of locate whith this command(By default it is updated once in a day):
 ```markdown
 sudo updatedb
 ```
@@ -94,8 +94,6 @@ and search redis with ctrl+f in this page:
 ```markdown
 localhost/phpinfo.php
 ```
-[localhost/phpinfo.php](localhost/phpinfo.php)
-
 
 
 
